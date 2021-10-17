@@ -1,0 +1,45 @@
+.state-cont {
+  background: linear-gradient(90deg, black, pink);
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+input {
+  width: 30%;
+  text-align: center;
+  padding: 1rem 2rem;
+  border-radius: 15px;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+.states {
+  width: 75vw;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.state {
+  padding: 2rem 1rem;
+  background: pink;
+  margin: 5px;
+  border-radius: 15px;
+  font-size: 1.3rem;
+  color: black;
+  font-weight: 600;
+  transition: transform 0.2s ease-in;
+}
+.state:hover {
+  transform: scale(1.1);
+}
+.center {
+  margin-top: 4rem;
+  background: none;
+  color: red;
+  font-size: 5rem;
+  margin: 0 auto;
+  text-align: center;
+}

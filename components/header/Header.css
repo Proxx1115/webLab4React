@@ -1,0 +1,31 @@
+.header-container {
+  background: pink;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 4rem;
+  box-sizing: border-box;
+  line-height: 0.8;
+  color: black;
+  flex-wrap: wrap;
+}
+h2,
+h3,
+h4 {
+  color: rgb(240, 148, 164);
+}
+h1 {
+  color: rgb(247, 106, 130);
+  text-shadow: 0.2rem 0.2rem 0.5rem white;
+}
+.img {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 5rem;
+  background: #333;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  box-shadow: 3px 3px 5px black;
+}
